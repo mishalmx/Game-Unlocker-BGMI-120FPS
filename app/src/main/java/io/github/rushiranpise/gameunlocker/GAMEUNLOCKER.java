@@ -38,8 +38,8 @@ public class GAMEUNLOCKER implements IXposedHookLoadPackage {
         "com.garena.game.kgvn"
     };
 
-    // Packages to Spoof as OnePlus 8 Pro
-    private static final String[] packagesToChangeOP8P = {
+    // Packages to Spoof as S24 Ultra
+    private static final String[] packagesToChangeS24U = {
         "com.netease.lztgglobal",
         "com.pubg.imobile",
         "com.pubg.krmobile",
@@ -129,8 +129,8 @@ public class GAMEUNLOCKER implements IXposedHookLoadPackage {
 
         // OnePlus
         if (Arrays.asList(packagesToChangeOP8P).contains(packageName)) {
-            propsToChangeOP8P();
-            XposedBridge.log("Spoofed " + packageName + " as OnePlus 8 Pro");
+            propsToChangeS24U();
+            XposedBridge.log("Spoofed " + packageName + " as Samsung Galaxy S24 Ultra");
         }
 
         if (Arrays.asList(packagesToChangeOP9P).contains(packageName)) {
@@ -186,10 +186,10 @@ public class GAMEUNLOCKER implements IXposedHookLoadPackage {
     }
 
     // OnePlus
-    // Props to Spoof as OnePlus 8 Pro
+    // Props to Spoof as Samsung Galaxy S24 Ultra
     private static void propsToChangeOP8P() {
-        setPropValue("MANUFACTURER", "OnePlus");
-        setPropValue("MODEL", "IN2020");
+        setPropValue("MANUFACTURER", "SAMSUNG");
+        setPropValue("MODEL", "SM-S928B");
     }
 
     // Props to Spoof as OnePlus 9 Pro
