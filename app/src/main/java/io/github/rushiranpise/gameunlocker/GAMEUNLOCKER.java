@@ -128,7 +128,7 @@ public class GAMEUNLOCKER implements IXposedHookLoadPackage {
         }
 
         // OnePlus
-        if (Arrays.asList(packagesToChangeOP8P).contains(packageName)) {
+        if (Arrays.asList(packagesToChangeS24U).contains(packageName)) {
             propsToChangeS24U();
             XposedBridge.log("Spoofed " + packageName + " as Samsung Galaxy S24 Ultra");
         }
@@ -187,7 +187,7 @@ public class GAMEUNLOCKER implements IXposedHookLoadPackage {
 
     // OnePlus
     // Props to Spoof as Samsung Galaxy S24 Ultra
-    private static void propsToChangeOP8P() {
+    private static void propsToChangeS24U() {
         setPropValue("MANUFACTURER", "SAMSUNG");
         setPropValue("MODEL", "SM-S928B");
     }
