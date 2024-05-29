@@ -189,7 +189,7 @@ public class GAMEUNLOCKER implements IXposedHookLoadPackage {
     // Props to Spoof as Samsung Galaxy S24 Ultra
     private static void propsToChangeS24U() {
         setPropValue("MANUFACTURER", "SAMSUNG");
-        setPropValue("MODEL", "SM-S928B");
+        setPropValue("MODEL", "SM-S928U");
     }
 
     // Props to Spoof as OnePlus 9 Pro
