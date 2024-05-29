@@ -1,6 +1,6 @@
 # Game-Unlocker-BGMI-120FPS
 ## Unlock higher FPS in games
-Fork from https://github.com/rushiranpise/game-unlocker that may or may not add 120fps support for BGMI 3.2. Yet to be tested.
+Fork from https://github.com/rushiranpise/game-unlocker that may or may not add 120fps support for BGMI 3.2. (by adding Galaxy S24 build prop values.) Yet to be tested.
 
 ## Getting Started
 
