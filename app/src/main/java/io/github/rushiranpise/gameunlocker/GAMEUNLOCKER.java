@@ -45,7 +45,7 @@ public class GAMEUNLOCKER implements IXposedHookLoadPackage {
         "com.pubg.krmobile",
         "com.rekoo.pubgm",
         "com.riotgames.league.wildrift",
-        "com.riotgames.league.wildrifttw",
+        "com.riotgames.league.wildrifttwest",
         "com.riotgames.league.wildriftvn",
         "com.riotgames.league.teamfighttactics",
         "com.riotgames.league.teamfighttacticstw",
